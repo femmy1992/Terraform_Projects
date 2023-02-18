@@ -26,9 +26,33 @@ c. To update to the latest version of Terraform, first update Homebrew
 - RUN "brew update"
 
 d. Verify Installation by running "terraform version"
+
+run = 'brew upgrade hashicorp/tap/terraform' to update 
 =======================================================================
 
 3. LINUX OS
 
 Use this link for installation guide as per linux distribution
 - https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
+
+# Authentication
+Profile configuration 
+
+# Terraform Workflow
+terraform init 
+terraform fmt
+terraform validate
+terraform plan
+terraform apply
+terraform destroy
+
+
+# Commands 
+terraform fmt = to format your scriot 
+required version/provider:
+= 1.3.9   ---> exact version
+ ~>= 1.3 ----> the latest version should be used //greater or equal to
+!= 1.3.9 ---> exclude exact version
+>= 1.3.0 ---> greater than 
+<= 1.3.9 ---> less than 
+

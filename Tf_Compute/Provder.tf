@@ -8,17 +8,7 @@ terraform {
   }
 }
 
-provider "aws" {
-  region     = "default"
-  access_key = "access key"
-  secret_key = "secret key"
-}
 
 
-# Create a VPC
-resource "aws_vpc" "femivpc" {
-  cidr_block = "10.0.0.0/16"
-  tags = {
-    "Name" = "FmTr"
-  }
-}
+
+

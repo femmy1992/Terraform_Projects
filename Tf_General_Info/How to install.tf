@@ -56,3 +56,12 @@ required version/provider:
 >= 1.3.0 ---> greater than 
 <= 1.3.9 ---> less than 
 
+# Commands 
+var = to reference a variable 
+
+CMD / = to comment multiple lines 
+cat ~/.aws/credentials = so see aws credentials 
+cat ~/.aws/config = for region and json format 
+aws configure --profile filename = to create a new credentials with the file name you specify
+
+control space = for more option
